@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\503112802\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\503112802\Documents\dev\YTMDesktop" t="IncludeRecursive">
+      <e p="actions" t="Include">
+        <e p="ActionNextTrack.cs" t="Include" />
+        <e p="ActionPlayPause.cs" t="Include" />
+        <e p="BaseYtmdaAction.cs" t="Include" />
+      </e>
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="external_resources" t="Include">
+        <e p="controls" t="Include">
+          <e p="add_library.svg" t="Include" />
+          <e p="add_to_playlist.svg" t="Include" />
+          <e p="mute.svg" t="Include" />
+          <e p="next_song.svg" t="Include" />
+          <e p="pause.svg" t="Include" />
+          <e p="play.svg" t="Include" />
+          <e p="previous_song.svg" t="Include" />
+          <e p="repeat.svg" t="Include" />
+          <e p="repeat_one.svg" t="Include" />
+          <e p="shuffle.svg" t="Include" />
+          <e p="thumbs_down_filled.svg" t="Include" />
+          <e p="thumbs_down_outline.svg" t="Include" />
+          <e p="thumbs_up_filled.svg" t="Include" />
+          <e p="thumbs_up_outline.svg" t="Include" />
+        </e>
+      </e>
+      <e p="images" t="Include">
+        <e p="actions" t="Include">
+          <e p="next_track" t="Include">
+            <e p="nextTrackIcon.png" t="Include" />
+            <e p="nextTrackIcon@2x.png" t="Include" />
+            <e p="nextTrackImage.png" t="Include" />
+            <e p="nextTrackImage@2x.png" t="Include" />
+          </e>
+          <e p="play_pause" t="Include">
+            <e p="pauseImage.png" t="Include" />
+            <e p="pauseImage@2x.png" t="Include" />
+            <e p="playIcon.png" t="Include" />
+            <e p="playIcon@2x.png" t="Include" />
+            <e p="playImage.png" t="Include" />
+            <e p="playImage@2x.png" t="Include" />
+          </e>
+          <e p="previous_track" t="Include" />
+        </e>
+        <e p="category" t="Include">
+          <e p="categoryIcon.png" t="Include" />
+          <e p="categoryIcon@2x.png" t="Include" />
+        </e>
+        <e p="pluginIcon.png" t="Include" />
+        <e p="pluginIcon@2x.png" t="Include" />
+      </e>
+      <e p="manifest.json" t="Include" />
+      <e p="nuget.config" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="win-x64" t="Include">
+              <e p="YTMDesktop.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="property_inspector" t="Include">
+        <e p="css" t="Include">
+          <e p="property-inspector.css" t="Include" />
+          <e p="sdpi.css" t="Include" />
+        </e>
+        <e p="js" t="Include">
+          <e p="property-inspector.js" t="Include" />
+        </e>
+        <e p="property_inspector.html" t="Include" />
+        <e p="property_inspector_basic.html" t="Include" />
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="RegisterPluginAndStartStreamDeck.ps1" t="Include" />
+      <e p="RegisterPluginAndStartStreamDeck.sh" t="Include" />
+      <e p="settings" t="Include">
+        <e p="Settings.cs" t="Include" />
+        <e p="SettingsCollection.cs" t="Include" />
+        <e p="YtmdaSettings.cs" t="Include" />
+      </e>
+      <e p="ytmda_settings.json" t="Include" />
+      <e p="YtmdaRest" t="Include">
+        <e p="Model" t="Include">
+          <e p="Commands" t="Include">
+            <e p="BaseCommand.cs" t="Include" />
+            <e p="CommandTrackNext.cs" t="Include" />
+            <e p="CommandTrackPause.cs" t="Include" />
+            <e p="CommandTrackPlay.cs" t="Include" />
+          </e>
+          <e p="Lyrics.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="Playlist.cs" t="Include" />
+          <e p="Query.cs" t="Include" />
+          <e p="Queue.cs" t="Include" />
+          <e p="TrackBasic.cs" t="Include" />
+          <e p="TrackFull.cs" t="Include" />
+        </e>
+        <e p="YtmdaRestClient.cs" t="Include" />
+        <e p="YtmdaRestConfig.cs" t="Include" />
+      </e>
+      <e p="YTMDesktop.cmd" t="Include" />
+      <e p="YTMDesktop.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

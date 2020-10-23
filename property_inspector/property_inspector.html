@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>YTMDesktop Property Inspector</title>
+	<link rel="stylesheet" href="css/sdpi.css">
+	<link rel="stylesheet" href="css/property-inspector.css">
+</head>
+<body>
+	<div class="sdpi-wrapper">
+		<!-- for more examples of the types of fields supported in property inspector visit:
+			Elgato Github PiSamples -> https://github.com/elgatosf/streamdeck-pisamples
+			and
+			Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
+	-->
+		<div class="sdpi-item" id="host_value">
+			<div class="sdpi-item-label">Host</div>
+			<input id="txtHost" class="sdpi-item-value" type="field" placeholder="Where is the server located" onchange="setSettings(event.target.value, 'Host')" />
+		</div>
+		<div class="sdpi-item" id="Port_value">
+			<div class="sdpi-item-label">Port</div>
+			<input id="txtPort" class="sdpi-item-value" type="field" placeholder="Port to access it" pattern="[0-9]+" onchange="setSettings(event.target.value, 'Port')" />
+		</div>
+		<div class="sdpi-item" id="password_value">
+			<div class="sdpi-item-label">Password</div>
+			<input id="txtPassword" class="sdpi-item-value" type="password" placeholder="Enter server password" onchange="setSettings(event.target.value, 'Password')" />
+		</div>
+		<div class="sdpi-item">
+<!--			<div class="sdpi-item-label">Button</div>-->
+			<button class="sdpi-item-value" id="submit" onclick="setAllSettings()">Update Config</button>
+		</div>
+	</div>
+	<script src="js/property-inspector.js"></script>
+</body>
+</html>
