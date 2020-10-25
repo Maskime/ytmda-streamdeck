@@ -33,6 +33,20 @@
       "SupportedInMultiActions": false,
       "Tooltip": "Next Track",
       "UUID": "com.maxoumask.ytmda.action.next"
+    },
+    {
+      "Icon": "images/actions/previous_track/previousTrackIcon",
+      "Name": "Previous Track",
+      "States": [
+        {
+          "Image": "images/actions/previous_track/previousTrackImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Previous Track",
+      "UUID": "com.maxoumask.ytmda.action.previous"
     }
   ],
   "Category": "YTMDA",

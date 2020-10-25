@@ -8,6 +8,7 @@
       <e p="actions" t="Include">
         <e p="ActionNextTrack.cs" t="Include" />
         <e p="ActionPlayPause.cs" t="Include" />
+        <e p="ActionPreviousTrack.cs" t="Include" />
         <e p="BaseYtmdaAction.cs" t="Include" />
       </e>
       <e p="appsettings.json" t="Include" />
@@ -46,7 +47,12 @@
             <e p="playImage.png" t="Include" />
             <e p="playImage@2x.png" t="Include" />
           </e>
-          <e p="previous_track" t="Include" />
+          <e p="previous_track" t="Include">
+            <e p="previousTrackIcon.png" t="Include" />
+            <e p="previousTrackIcon@2x.png" t="Include" />
+            <e p="previousTrackImage.png" t="Include" />
+            <e p="previousTrackImage@2x.png" t="Include" />
+          </e>
         </e>
         <e p="category" t="Include">
           <e p="categoryIcon.png" t="Include" />
@@ -95,6 +101,7 @@
             <e p="CommandTrackNext.cs" t="Include" />
             <e p="CommandTrackPause.cs" t="Include" />
             <e p="CommandTrackPlay.cs" t="Include" />
+            <e p="CommandTrackPrevious.cs" t="Include" />
           </e>
           <e p="Lyrics.cs" t="Include" />
           <e p="Player.cs" t="Include" />

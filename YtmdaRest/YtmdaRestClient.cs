@@ -119,5 +119,10 @@ namespace YTMDesktop.YtmdaRest
         {
             SendCommand(new CommandTrackNext());
         }
+
+        public void PreviousTrack()
+        {
+            SendCommand(new CommandTrackPrevious());
+        }
     }
 }

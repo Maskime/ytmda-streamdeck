@@ -1,1 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" class="style-scope iron-icon"></path></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 24 24"
+   preserveAspectRatio="xMidYMid meet"
+   focusable="false"
+   class="style-scope iron-icon"
+   style="pointer-events: none; display: block; width: 100%; height: 100%;"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="previous_song.svg"
+   inkscape:export-filename="D:\dev\ytmda-streamdeck\images\actions\previous_track\previousTrackIcon.png"
+   inkscape:export-xdpi="80"
+   inkscape:export-ydpi="80"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1679"
+     inkscape:window-height="1408"
+     id="namedview8"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="42"
+     inkscape:cx="10.142857"
+     inkscape:cy="12"
+     inkscape:window-x="71"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <g
+     class="style-scope iron-icon"
+     id="g4">
+    <path
+       d="M6 6h2v12H6zm3.5 6l8.5 6V6z"
+       class="style-scope iron-icon"
+       id="path2" />
+  </g>
+  <path
+     style="fill:#d8d8d8;stroke-width:0.0238095;fill-opacity:1"
+     d="M 13.765879,14.997914 C 11.443661,13.358691 9.5456718,12.008212 9.5481265,11.99685 9.5505765,11.98549 11.450578,10.636426 13.770342,8.998936 l 4.217753,-2.9772547 0.006,2.9812925 c 0.0033,1.6397112 0.0033,4.3299542 0,5.9783182 l -0.006,2.997027 z"
+     id="path837" />
+  <path
+     style="fill:#d8d8d8;fill-opacity:1;stroke-width:0.0238095"
+     d="M 6,12 V 6.0119048 H 7 8 V 12 17.988095 H 7 6 Z"
+     id="path839" />
+</svg>
