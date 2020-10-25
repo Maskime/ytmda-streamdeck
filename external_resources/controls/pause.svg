@@ -15,9 +15,9 @@
    version="1.1"
    id="svg6"
    sodipodi:docname="pause.svg"
-   inkscape:export-filename="C:\Users\503112802\Documents\dev\YTMDesktop\images\actions\play\pauseImage@2x.png"
-   inkscape:export-xdpi="576"
-   inkscape:export-ydpi="576"
+   inkscape:export-filename="D:\dev\ytmda-streamdeck\images\actions\play_pause\pauseImage.png"
+   inkscape:export-xdpi="288"
+   inkscape:export-ydpi="288"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata12">
@@ -34,26 +34,27 @@
   <defs
      id="defs10" />
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#1d1e1f"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="2009"
-     inkscape:window-height="1259"
+     inkscape:window-width="1679"
+     inkscape:window-height="1408"
      id="namedview8"
      showgrid="false"
-     inkscape:pagecheckerboard="true"
+     inkscape:pagecheckerboard="false"
      inkscape:zoom="42"
-     inkscape:cx="12"
+     inkscape:cx="9.7142857"
      inkscape:cy="12"
-     inkscape:window-x="0"
+     inkscape:window-x="71"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     inkscape:document-rotation="0" />
   <g
      class="style-scope iron-icon"
      id="g4">
@@ -70,4 +71,16 @@
      style="fill:#ffffff;stroke-width:0.0238095"
      d="M 14,12 V 5.0119048 h 2 2 V 12 18.988095 h -2 -2 z"
      id="path16" />
+  <path
+     style="fill:#d8d8d8;stroke-width:0.0238095;fill-opacity:1"
+     d="M 6,12 V 5.0119048 h 2 2 V 12 18.988095 H 8 6 Z"
+     id="path10" />
+  <path
+     style="fill:#d8d8d8;fill-opacity:1;stroke-width:0.0238095"
+     d="M 6.0119048,12 V 5.0119048 H 8 9.9880952 V 12 18.988095 H 8 6.0119048 Z"
+     id="path835" />
+  <path
+     style="fill:#d8d8d8;fill-opacity:1;stroke-width:0.0238095"
+     d="M 14.011905,12 V 5.0119048 H 16 17.988095 V 12 18.988095 H 16 14.011905 Z"
+     id="path837" />
 </svg>
