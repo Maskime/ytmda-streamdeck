@@ -47,6 +47,44 @@
       "SupportedInMultiActions": false,
       "Tooltip": "Previous Track",
       "UUID": "com.maxoumask.ytmda.action.previous"
+    },
+    {
+      "Icon": "images/actions/thumbs_up/thumbsUpIcon",
+      "Name": "Like Track",
+      "States": [
+        {
+          "Image": "images/actions/thumbs_up/thumbsUpOutlineImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        },
+        {
+          "Image": "images/actions/thumbs_up/thumbsUpImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Like Track",
+      "UUID": "com.maxoumask.ytmda.action.thumbs.up"
+    },
+    {
+      "Icon": "images/actions/thumbs_down/thumbsDownIcon",
+      "Name": "Dislike Track",
+      "States": [
+        {
+          "Image": "images/actions/thumbs_down/thumbsDownOutlineImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        },
+        {
+          "Image": "images/actions/thumbs_down/thumbsDownImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Dislike Track",
+      "UUID": "com.maxoumask.ytmda.action.thumbs.down"
     }
   ],
   "Category": "YTMDA",

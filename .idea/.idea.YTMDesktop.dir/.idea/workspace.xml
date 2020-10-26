@@ -25,8 +25,18 @@
     <list default="true" id="125eeb76-f4a1-4341-b2cc-eefee23d843f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ActionNextTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionNextTrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ActionPlayPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionPlayPause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/YtmdaSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/settings/YtmdaSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +54,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackPrevious.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/actions/ActionPreviousTrack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/actions/ActionNextTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manifest.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/actions/YTMDesktopActionPlay.cs" />
-        <option value="$PROJECT_DIR$/actions/ActionPlay.cs" />
-        <option value="$PROJECT_DIR$/YTMDesktop.csproj" />
-        <option value="$PROJECT_DIR$/models/YtmdaRest/Player.cs" />
         <option value="$PROJECT_DIR$/models/YtmdaRest/Track.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Track.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Player.cs" />
@@ -74,19 +79,15 @@
         <option value="$PROJECT_DIR$/YtmdaRest/Model/TrackBasic.cs" />
         <option value="$PROJECT_DIR$/YTMDesktop.cmd" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/RegisterPluginAndStartStreamDeck.ps1" />
         <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestConfig.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/models/YtmSettings.cs" />
         <option value="$PROJECT_DIR$/YtmdaSettings.cs" />
         <option value="$PROJECT_DIR$/settings/YtmSettings.cs" />
         <option value="$PROJECT_DIR$/settings/SettingsCollection.cs" />
         <option value="$PROJECT_DIR$/ytmda_settings.json" />
         <option value="$PROJECT_DIR$/settings/Settings.cs" />
-        <option value="$PROJECT_DIR$/settings/YtmdaSettings.cs" />
         <option value="$PROJECT_DIR$/property_inspector/js/property-inspector.js" />
-        <option value="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" />
         <option value="$PROJECT_DIR$/property_inspector/property_inspector_basic.html" />
         <option value="$PROJECT_DIR$/property_inspector/property_inspector.html" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/CommandParam.cs" />
@@ -95,15 +96,23 @@
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandPlayTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandPauseTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/BaseCommand.cs" />
-        <option value="$PROJECT_DIR$/actions/ActionPlayPause.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackPlay.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackPause.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackNext.cs" />
-        <option value="$PROJECT_DIR$/actions/ActionNextTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackPrevious.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" />
         <option value="$PROJECT_DIR$/actions/ActionPreviousTrack.cs" />
+        <option value="$PROJECT_DIR$/settings/YtmdaSettings.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionPlayPause.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionNextTrack.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackThumbsUp.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionThumbsUpTrack.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackThumbsDown.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/actions/ActionThumbsDownTrack.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +155,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,11 +180,12 @@
       <workItem from="1603370967732" duration="9137000" />
       <workItem from="1603459019503" duration="7359000" />
       <workItem from="1603636363913" duration="904000" />
+      <workItem from="1603700951577" duration="8960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -189,6 +199,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -266,11 +277,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603266961408" />
-    <state x="822" y="322" key="RiderGenerateDialog" timestamp="1603466848882">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="1028" y="406" key="RiderGenerateDialog" timestamp="1603707813084">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="822" y="322" key="RiderGenerateDialog/-3840.0.1920.1055/0.0.2048.1112@0.0.2048.1112" timestamp="1603466848882" />
-    <state x="1028" y="406" key="RiderGenerateDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603379148336" />
+    <state x="1028" y="406" key="RiderGenerateDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603707813084" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1603265622726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

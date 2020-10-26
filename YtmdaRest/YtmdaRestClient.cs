@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Tasks;
+using System.Timers;
 using Microsoft.Extensions.Logging;
 using YTMDesktop.settings;
 using YTMDesktop.YtmdaRest.Model;
@@ -16,7 +19,7 @@ namespace YTMDesktop.YtmdaRest
         private readonly ILogger _logger;
 
         public static YtmdaRestClient Instance => Lazy.Value;
-
+        
         private YtmdaRestClient()
         {
             _logger = Program.LoggerFactory.CreateLogger(nameof(YtmdaRestClient));
@@ -40,9 +43,11 @@ namespace YTMDesktop.YtmdaRest
             {
                 try
                 {
-                    var streamTask = client.GetStreamAsync($"{apiUrl}{resourceName}").Result;
+                    var requestUri = $"{apiUrl}{resourceName}";
+                    _logger.LogTrace($"Request URI : [{requestUri}]");
+                    var streamTask = client.GetStreamAsync(requestUri).Result;
                     result = JsonSerializer.DeserializeAsync<T>(streamTask).Result;
-                    _logger.LogDebug("Result obtained");
+                    _logger.LogTrace("Result obtained");
                     return true;
                 }
                 catch (Exception e)
@@ -123,6 +128,16 @@ namespace YTMDesktop.YtmdaRest
         public void PreviousTrack()
         {
             SendCommand(new CommandTrackPrevious());
+        }
+
+        public void ThumbsUpTrack()
+        {
+            SendCommand(new CommandTrackThumbsUp());
+        }
+
+        public void ThumbsDownTrack()
+        {
+            SendCommand(new CommandTrackThumbsDown());
         }
     }
 }

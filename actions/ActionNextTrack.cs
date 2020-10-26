@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using StreamDeckLib;
 using StreamDeckLib.Messages;
-using YTMDesktop.settings;
 using YTMDesktop.YtmdaRest;
 
 namespace YTMDesktop.actions
@@ -12,10 +11,10 @@ namespace YTMDesktop.actions
     {
         private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(ActionNextTrack));
 
-        public override Task OnKeyUp(StreamDeckEventPayload args)
+        public override async Task OnKeyUp(StreamDeckEventPayload args)
         {
+            await base.OnKeyUp(args);
             YtmdaRestClient.Instance.NextTrack();
-            return Task.CompletedTask;
         }
     }
 }

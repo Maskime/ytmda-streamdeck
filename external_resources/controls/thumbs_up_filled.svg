@@ -1,1 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope iron-icon"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-scope iron-icon"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 24 24"
+   preserveAspectRatio="xMidYMid meet"
+   focusable="false"
+   class="style-scope iron-icon"
+   style="pointer-events: none; display: block; width: 100%; height: 100%;"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="thumbs_up_filled.svg"
+   inkscape:export-filename="C:\Users\503112802\Documents\dev\YTMDesktop\images\actions\thumbs_up\thumbsUpImage.png"
+   inkscape:export-xdpi="288"
+   inkscape:export-ydpi="288"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#1d1e1f"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1905"
+     inkscape:window-height="1245"
+     id="namedview8"
+     showgrid="false"
+     inkscape:pagecheckerboard="false"
+     inkscape:zoom="42"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <g
+     class="style-scope iron-icon"
+     id="g4">
+    <path
+       d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+       class="style-scope iron-icon"
+       id="path2" />
+  </g>
+  <path
+     style="fill:#d8d8d8;stroke-width:0.0238095"
+     d="M 8.7836087,20.975195 C 8.443621,20.941557 8.0702365,20.787619 7.772003,20.558134 7.448084,20.308884 7.2055565,19.940124 7.0682556,19.488095 7.0269404,19.352075 7.0245004,19.095102 7.0172745,14.119048 7.0117611,10.322344 7.0170501,8.8410693 7.0366109,8.7035214 7.0514199,8.5993869 7.0945374,8.4292412 7.1324275,8.3254198 7.2884615,7.8978764 7.1304111,8.0673181 10.798456,4.3951667 l 3.374865,-3.378643 0.605748,0.6048334 c 0.526004,0.5252096 0.616862,0.6267744 0.69017,0.7715 0.151189,0.2984814 0.173947,0.3953065 0.170679,0.7261905 -0.0029,0.2896298 -0.01548,0.3576988 -0.470128,2.5357143 -0.256955,1.2309524 -0.472695,2.2617788 -0.479422,2.2907252 l -0.01223,0.05263 3.303788,0.00744 3.303789,0.00744 0.189191,0.053241 c 0.73203,0.2060019 1.249342,0.7233786 1.457439,1.4576195 0.0402,0.1418536 0.04385,0.2644841 0.04385,1.4761344 0,1.209455 -0.0037,1.334543 -0.04367,1.47619 -0.07496,0.265664 -3.152374,7.421381 -3.270243,7.604094 -0.270568,0.419416 -0.673175,0.709141 -1.186089,0.853533 l -0.190476,0.05362 -4.654762,0.0034 c -2.560119,0.0019 -4.7414233,-0.0052 -4.8473433,-0.01565 z"
+     id="path837" />
+  <path
+     style="fill:#d8d8d8;stroke-width:0.0238095"
+     d="M 1.0119048,15 V 9 H 3 4.9880952 v 6 6 H 3 1.0119048 Z"
+     id="path839" />
+</svg>

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
 
@@ -22,6 +21,8 @@ namespace YTMDesktop.settings
                 Path.GetDirectoryName(typeof(Program).Assembly.Location),
                 ConfigFileName);
 
+        private Settings _settingsCache;
+
         private YtmdaSettings()
         {
             _logger = Program.LoggerFactory.CreateLogger(nameof(YtmdaSettings));
@@ -41,7 +42,13 @@ namespace YTMDesktop.settings
 
         public Settings GetSettings()
         {
-            return ReadConfigFile()[0];
+            if (_settingsCache != null)
+            {
+                return _settingsCache;
+            }
+
+            _settingsCache = ReadConfigFile()[0];
+            return _settingsCache;
         }
 
         public void UpdateConfig(Settings settings)
@@ -50,6 +57,7 @@ namespace YTMDesktop.settings
             var settingsList = ReadConfigFile();
             settingsList[0] = settings;
             UpdateConfigFile(settingsList);
+            _settingsCache = settings;
         }
 
         private void UpdateConfigFile(List<Settings> settingsList)

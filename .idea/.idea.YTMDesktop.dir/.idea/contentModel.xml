@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_.19.00" t="ExcludeRecursive" />
-    <e p="D:\dev\ytmda-streamdeck" t="IncludeRecursive">
+    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\503112802\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\503112802\Documents\dev\YTMDesktop" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="actions" t="Include">
         <e p="ActionNextTrack.cs" t="Include" />
         <e p="ActionPlayPause.cs" t="Include" />
         <e p="ActionPreviousTrack.cs" t="Include" />
+        <e p="ActionThumbsDownTrack.cs" t="Include" />
+        <e p="ActionThumbsUpTrack.cs" t="Include" />
         <e p="BaseYtmdaAction.cs" t="Include" />
       </e>
       <e p="appsettings.json" t="Include" />
@@ -52,6 +55,22 @@
             <e p="previousTrackIcon@2x.png" t="Include" />
             <e p="previousTrackImage.png" t="Include" />
             <e p="previousTrackImage@2x.png" t="Include" />
+          </e>
+          <e p="thumbs_down" t="Include">
+            <e p="thumbsDownIcon.png" t="Include" />
+            <e p="thumbsDownIcon@2x.png" t="Include" />
+            <e p="thumbsDownImage.png" t="Include" />
+            <e p="thumbsDownImage@2x.png" t="Include" />
+            <e p="thumbsDownOutlineImage.png" t="Include" />
+            <e p="thumbsDownOutlineImage@2x.png" t="Include" />
+          </e>
+          <e p="thumbs_up" t="Include">
+            <e p="thumbsUpIcon.png" t="Include" />
+            <e p="thumbsUpIcon@2x.png" t="Include" />
+            <e p="thumbsUpImage.png" t="Include" />
+            <e p="thumbsUpImage@2x.png" t="Include" />
+            <e p="thumbsUpOutlineImage.png" t="Include" />
+            <e p="thumbsUpOutlineImage@2x.png" t="Include" />
           </e>
         </e>
         <e p="category" t="Include">
@@ -102,6 +121,8 @@
             <e p="CommandTrackPause.cs" t="Include" />
             <e p="CommandTrackPlay.cs" t="Include" />
             <e p="CommandTrackPrevious.cs" t="Include" />
+            <e p="CommandTrackThumbsDown.cs" t="Include" />
+            <e p="CommandTrackThumbsUp.cs" t="Include" />
           </e>
           <e p="Lyrics.cs" t="Include" />
           <e p="Player.cs" t="Include" />
