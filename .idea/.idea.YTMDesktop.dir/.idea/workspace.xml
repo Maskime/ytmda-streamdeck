@@ -23,20 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125eeb76-f4a1-4341-b2cc-eefee23d843f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ActionNextTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionNextTrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ActionPlayPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionPlayPause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/YtmdaSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/settings/YtmdaSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/YtmdaRest/Track.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Track.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Player.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Lyrics.cs" />
@@ -111,8 +99,9 @@
         <option value="$PROJECT_DIR$/actions/ActionThumbsUpTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackThumbsDown.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" />
-        <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/actions/ActionThumbsDownTrack.cs" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -180,7 +169,7 @@
       <workItem from="1603370967732" duration="9137000" />
       <workItem from="1603459019503" duration="7359000" />
       <workItem from="1603636363913" duration="904000" />
-      <workItem from="1603700951577" duration="8960000" />
+      <workItem from="1603700951577" duration="10098000" />
     </task>
     <servers />
   </component>

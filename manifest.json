@@ -97,7 +97,7 @@
   "Description": "Control YTMDesktop from your StreamDeck.",
   "Name": "YTMDesktop",
   "Icon": "images/pluginIcon",
-  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "URL": "https://github.com/Maskime/ytmda-streamdeck",
   "Version": "1.0",
   "SDKVersion": 2,
   "Software": {
