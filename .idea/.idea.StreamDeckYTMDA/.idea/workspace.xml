@@ -23,19 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc8e6496-9d06-442e-8979-6e1decf735bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external_resources/controls/pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/pause.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_filled.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_up_outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +53,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.prout">
+    <configuration name="Win 10 Framework-Dependent" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="win-x64" target_folder="$PROJECT_DIR$/publish/win/framework-dependent" target_framework="netcoreapp2.2" uuid_high="2269365034763175333" uuid_low="-4821074488492941518" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Win 10 Self-Contained" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/publish/win/self-contained" target_framework="netcoreapp2.2" uuid_high="2269365034763175333" uuid_low="-4821074488492941518" />
+      <method v="2" />
+    </configuration>
     <configuration name="prout" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/win-x64/YTMDesktop.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/win-x64" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -78,11 +75,21 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.prout" />
+      <item itemvalue="Publish to folder.Win 10 Framework-Dependent" />
+      <item itemvalue="Publish to folder.Win 10 Self-Contained" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Win 10 Self-Contained" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603816304231</updated>
       <workItem from="1603816312431" duration="4000" />
-      <workItem from="1603816391926" duration="915000" />
+      <workItem from="1603816391926" duration="1362000" />
     </task>
     <servers />
   </component>
@@ -115,9 +122,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603817157606">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603817752369">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603817157606" />
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603817752369" />
+    <state x="1175" y="436" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1603817617062">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1175" y="436" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603817617062" />
   </component>
 </project>
