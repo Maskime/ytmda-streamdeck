@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\503112802\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_StreamDeckYTMDA.1543463082.00" t="ExcludeRecursive" />
     <e p="C:\Users\503112802\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\503112802\Documents\dev\YTMDesktop" t="IncludeRecursive">
+    <e p="C:\Users\503112802\Documents\dev\StreamDeckYTMDA" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="actions" t="Include">
         <e p="ActionNextTrack.cs" t="Include" />
@@ -109,7 +109,7 @@
       <e p="manifest.json" t="Include" />
       <e p="nuget.config" t="Include" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
+        <e p="Release" t="Include">
           <e p="netcoreapp2.2" t="Include">
             <e p="win-x64" t="Include">
               <e p="YTMDesktop.AssemblyInfo.cs" t="Include" />
@@ -138,6 +138,7 @@
         <e p="SettingsCollection.cs" t="Include" />
         <e p="YtmdaSettings.cs" t="Include" />
       </e>
+      <e p="StreamDeckYTMDA.sln" t="IncludeFlat" />
       <e p="ytmda_settings.json" t="Include" />
       <e p="YtmdaRest" t="Include">
         <e p="Model" t="Include">
