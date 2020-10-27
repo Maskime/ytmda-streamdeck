@@ -15,8 +15,8 @@ To this date (2020-10-26), here are the list of available commands and their cur
 |`track-previous`|Yes|
 |`track-thumbs-up`|Yes|
 |`track-thumbs-down`|Yes|
-|`player-volume-up`|Planned|
-|`player-volume-down`|Planned|
+|`player-volume-up`|Yes|
+|`player-volume-down`|Yes|
 |`player-repeat`|Planned|
 |`player-shuffle`|Planned|
 |`player-add-library`|Planned|
@@ -31,7 +31,7 @@ To this date (2020-10-26), here are the list of available commands and their cur
 >Why the "Not Planned" ?
 
 Well, remember that you're using a StreamDeck, and its main purpose is to automate stuff. I'm not sure
-to see any value in `show-lyrics-hidden` from the StreamDeck. But if you've compeling arguments for some
+to see any value in `show-lyrics-hidden` from the StreamDeck. But if you've compelling arguments for some
 that are a "must have" to you, please don't hesitate to create an issue, we'll debate over it. 
 
 ## Credits

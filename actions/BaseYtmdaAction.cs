@@ -45,6 +45,7 @@ namespace YTMDesktop.actions
             SetModelProperties(args);
             LastContext = args.context;
             Logger.LogDebug($"OnWillAppear [{SettingsModel}]");
+            Program.EnableObserver();
             return Task.CompletedTask;
         }
 

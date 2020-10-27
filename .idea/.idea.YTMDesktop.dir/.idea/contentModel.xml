@@ -12,6 +12,9 @@
         <e p="ActionPreviousTrack.cs" t="Include" />
         <e p="ActionThumbsDownTrack.cs" t="Include" />
         <e p="ActionThumbsUpTrack.cs" t="Include" />
+        <e p="ActionVolumeDown.cs" t="Include" />
+        <e p="ActionVolumeMute.cs" t="Include" />
+        <e p="ActionVolumeUp.cs" t="Include" />
         <e p="BaseYtmdaAction.cs" t="Include" />
       </e>
       <e p="appsettings.json" t="Include" />
@@ -32,6 +35,9 @@
           <e p="thumbs_down_outline.svg" t="Include" />
           <e p="thumbs_up_filled.svg" t="Include" />
           <e p="thumbs_up_outline.svg" t="Include" />
+          <e p="volume-down-svgrepo-com.svg" t="Include" />
+          <e p="volume-up-svgrepo-com.svg" t="Include" />
+          <e p="volume_on.svg" t="Include" />
         </e>
       </e>
       <e p="images" t="Include">
@@ -71,6 +77,26 @@
             <e p="thumbsUpImage@2x.png" t="Include" />
             <e p="thumbsUpOutlineImage.png" t="Include" />
             <e p="thumbsUpOutlineImage@2x.png" t="Include" />
+          </e>
+          <e p="volume_down" t="Include">
+            <e p="volumeDownIcon.png" t="Include" />
+            <e p="volumeDownIcon@2x.png" t="Include" />
+            <e p="volumeDownImage.png" t="Include" />
+            <e p="volumeDownImage@2x.png" t="Include" />
+          </e>
+          <e p="volume_mute" t="Include">
+            <e p="volumeOffIcon.png" t="Include" />
+            <e p="volumeOffIcon@2x.png" t="Include" />
+            <e p="volumeOffImage.png" t="Include" />
+            <e p="volumeOffImage@2x.png" t="Include" />
+            <e p="volumeOnImage.png" t="Include" />
+            <e p="volumeOnImage@2x.png" t="Include" />
+          </e>
+          <e p="volume_up" t="Include">
+            <e p="volumeUpIcon.png" t="Include" />
+            <e p="volumeUpIcon@2x.png" t="Include" />
+            <e p="volumeUpImage.png" t="Include" />
+            <e p="volumeUpImage@2x.png" t="Include" />
           </e>
         </e>
         <e p="category" t="Include">
@@ -117,12 +143,15 @@
         <e p="Model" t="Include">
           <e p="Commands" t="Include">
             <e p="BaseCommand.cs" t="Include" />
+            <e p="CommandSetVolume.cs" t="Include" />
             <e p="CommandTrackNext.cs" t="Include" />
             <e p="CommandTrackPause.cs" t="Include" />
             <e p="CommandTrackPlay.cs" t="Include" />
             <e p="CommandTrackPrevious.cs" t="Include" />
             <e p="CommandTrackThumbsDown.cs" t="Include" />
             <e p="CommandTrackThumbsUp.cs" t="Include" />
+            <e p="CommandVolumeDown.cs" t="Include" />
+            <e p="CommandVolumeUp.cs" t="Include" />
           </e>
           <e p="Lyrics.cs" t="Include" />
           <e p="Player.cs" t="Include" />

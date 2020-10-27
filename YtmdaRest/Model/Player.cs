@@ -6,7 +6,7 @@ namespace YTMDesktop.YtmdaRest.Model
     {
         [JsonPropertyName("hasSong")] public bool HasSong { get; set; }
         [JsonPropertyName("isPaused")] public bool IsPaused { get; set; }
-        [JsonPropertyName("volumePercent")] public double VolumePercent { get; set; }
+        [JsonPropertyName("volumePercent")] public int VolumePercent { get; set; }
 
         [JsonPropertyName("seekbarCurrentPosition")]
         public double SeekbarCurrentPosition { get; set; }

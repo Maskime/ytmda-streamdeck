@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
-using System.Timers;
 using Microsoft.Extensions.Logging;
 using YTMDesktop.settings;
 using YTMDesktop.YtmdaRest.Model;
@@ -105,7 +103,7 @@ namespace YTMDesktop.YtmdaRest
                     var content = new StringContent(commandString, Encoding.UTF8, "application/json");
                     if (!string.IsNullOrEmpty(config.Password))
                     {
-                        content.Headers.Add("Authorization", $"Bearer {config.Password}");
+                        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", config.Password);
                     }
                     var response = client.PostAsync($"{apiUrl}query", content).Result;
                     if (!response.IsSuccessStatusCode)
@@ -138,6 +136,30 @@ namespace YTMDesktop.YtmdaRest
         public void ThumbsDownTrack()
         {
             SendCommand(new CommandTrackThumbsDown());
+        }
+
+        public void VolumeDown()
+        {
+            SendCommand(new CommandVolumeDown());
+        }
+
+        public void VolumeUp()
+        {
+            SendCommand(new CommandVolumeUp());
+        }
+
+        public int ToggleMute(int previousVolume)
+        {
+            var player = PlayerStatus();
+            if (player.VolumePercent > 0)
+            {
+                _logger.LogDebug("Muting the player");
+                SendCommand(new CommandSetVolume(0));
+                return player.VolumePercent;
+            }
+            _logger.LogDebug($"Un muting, setting volume to [{previousVolume}]");
+            SendCommand(new CommandSetVolume(previousVolume));
+            return previousVolume;
         }
     }
 }

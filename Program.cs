@@ -13,30 +13,40 @@ namespace YTMDesktop
     class Program
     {
         public static ILoggerFactory LoggerFactory;
-        
+
         private static readonly List<Func<Query, Task>> Observers = new List<Func<Query, Task>>();
-        
+        private static Timer _timer;
+
         static async Task Main(string[] args)
         {
             using (var config = ConfigurationBuilder.BuildDefaultConfiguration(args))
             {
                 LoggerFactory = config.LoggerFactory;
-                var timer = new Timer
+                _timer = new Timer
                 {
                     AutoReset = true,
-                    Enabled = true,
+                    Enabled = false,
                     Interval = 1000
                 };
-                timer.Elapsed += UpdateObservers;
+                _timer.Elapsed += UpdateObservers;
                 await ConnectionManager.Initialize(args, config.LoggerFactory)
                     .RegisterAllActions(typeof(Program).Assembly)
                     .StartAsync();
             }
         }
 
+        public static void EnableObserver()
+        {
+            _timer.Enabled = true;
+        }
+
         private static void UpdateObservers(object sender, ElapsedEventArgs e)
         {
             var query = YtmdaRestClient.Instance.Query();
+            if (query == null)
+            {
+                return;
+            }
             foreach (var observer in Observers)
             {
                 observer(query);

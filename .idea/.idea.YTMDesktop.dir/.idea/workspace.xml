@@ -23,8 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125eeb76-f4a1-4341-b2cc-eefee23d843f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/ActionPlayPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionPlayPause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_down_filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_down_filled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_down_outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_down_outline.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +60,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/YtmdaRest/Track.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/Player.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/Lyrics.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/Playlist.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/Queue.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/TrackFull.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/TrackBasic.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Lyrics.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Playlist.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Queue.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Query.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/TrackFull.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/TrackBasic.cs" />
@@ -90,18 +92,25 @@
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackPrevious.cs" />
         <option value="$PROJECT_DIR$/actions/ActionPreviousTrack.cs" />
         <option value="$PROJECT_DIR$/settings/YtmdaSettings.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/appsettings.json" />
-        <option value="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" />
-        <option value="$PROJECT_DIR$/actions/ActionPlayPause.cs" />
         <option value="$PROJECT_DIR$/actions/ActionNextTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackThumbsUp.cs" />
         <option value="$PROJECT_DIR$/actions/ActionThumbsUpTrack.cs" />
         <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandTrackThumbsDown.cs" />
-        <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" />
         <option value="$PROJECT_DIR$/actions/ActionThumbsDownTrack.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionPlayPause.cs" />
+        <option value="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionVolumeDown.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandVolumeDown.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionVolumeUp.cs" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandVolumeUp.cs" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/YtmdaRest/Model/Commands/CommandSetVolume.cs" />
+        <option value="$PROJECT_DIR$/actions/ActionVolumeMute.cs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" />
       </list>
     </option>
   </component>
@@ -169,7 +178,9 @@
       <workItem from="1603370967732" duration="9137000" />
       <workItem from="1603459019503" duration="7359000" />
       <workItem from="1603636363913" duration="904000" />
-      <workItem from="1603700951577" duration="10098000" />
+      <workItem from="1603700951577" duration="13296000" />
+      <workItem from="1603729279906" duration="2439000" />
+      <workItem from="1603787578606" duration="7350000" />
     </task>
     <servers />
   </component>
@@ -266,11 +277,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603266961408" />
-    <state x="1028" y="406" key="RiderGenerateDialog" timestamp="1603707813084">
+    <state x="1028" y="406" key="RiderGenerateDialog" timestamp="1603787918821">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="822" y="322" key="RiderGenerateDialog/-3840.0.1920.1055/0.0.2048.1112@0.0.2048.1112" timestamp="1603466848882" />
-    <state x="1028" y="406" key="RiderGenerateDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603707813084" />
+    <state x="1028" y="406" key="RiderGenerateDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603787918821" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1603265622726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

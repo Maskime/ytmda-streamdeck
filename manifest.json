@@ -85,6 +85,53 @@
       "SupportedInMultiActions": false,
       "Tooltip": "Dislike Track",
       "UUID": "com.maxoumask.ytmda.action.thumbs.down"
+    },
+    {
+      "Icon": "images/actions/volume_down/volumeDownIcon",
+      "Name": "Volume Down",
+      "States": [
+        {
+          "Image": "images/actions/volume_down/volumeDownImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Volume down",
+      "UUID": "com.maxoumask.ytmda.action.volume.down"
+    },
+    {
+      "Icon": "images/actions/volume_up/volumeUpIcon",
+      "Name": "Volume Up",
+      "States": [
+        {
+          "Image": "images/actions/volume_up/volumeUpImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Volume up",
+      "UUID": "com.maxoumask.ytmda.action.volume.up"
+    },
+    {
+      "Icon": "images/actions/volume_mute/volumeOffIcon",
+      "Name": "Toggle Mute",
+      "States": [
+        {
+          "Image": "images/actions/volume_mute/volumeOffImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        },
+        {
+          "Image": "images/actions/volume_mute/volumeOnImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle Mute",
+      "UUID": "com.maxoumask.ytmda.action.volume.mute"
     }
   ],
   "Category": "YTMDA",
