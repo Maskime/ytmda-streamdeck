@@ -15,7 +15,10 @@
    version="1.1"
    id="svg6"
    sodipodi:docname="volume_on.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="C:\Users\503112802\Documents\dev\YTMDesktop\images\actions\volume_mute\volumeOnImage@2x.png"
+   inkscape:export-xdpi="576"
+   inkscape:export-ydpi="576">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -24,31 +27,41 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs10" />
   <sodipodi:namedview
-     pagecolor="#ffffff"
+     pagecolor="#1d1e1f"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="42"
-     inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:zoom="90.509668"
+     inkscape:cx="8.5664372"
+     inkscape:cy="8.9355342"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     inkscape:pagecheckerboard="false"
+     units="in"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="13.328125,20.761719"
+       orientation="0,-1"
+       id="guide843" />
+  </sodipodi:namedview>
   <g
      class="style-scope iron-icon"
      id="g4">

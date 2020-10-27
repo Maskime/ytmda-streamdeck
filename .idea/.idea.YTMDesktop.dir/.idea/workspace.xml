@@ -23,18 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="125eeb76-f4a1-4341-b2cc-eefee23d843f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YTMDesktop.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/Model/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YtmdaRest/YtmdaRestClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ActionPlayPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ActionPlayPause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/actions/BaseYtmdaAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/mute.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/mute.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_down_filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_down_filled.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external_resources/controls/thumbs_down_outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/thumbs_down_outline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/volume-down-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/volume-down-svgrepo-com.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/volume-up-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/volume-up-svgrepo-com.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_resources/controls/volume_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/external_resources/controls/volume_on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownOutlineImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownOutlineImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownOutlineImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_down/thumbsDownOutlineImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpOutlineImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpOutlineImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpOutlineImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/thumbs_up/thumbsUpOutlineImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_down/volumeDownIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_down/volumeDownIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_down/volumeDownIcon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_down/volumeDownIcon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_down/volumeDownImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_down/volumeDownImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_down/volumeDownImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_down/volumeDownImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffIcon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffIcon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_mute/volumeOffImage@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_up/volumeUpIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_up/volumeUpIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_up/volumeUpIcon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_up/volumeUpIcon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_up/volumeUpImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_up/volumeUpImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/actions/volume_up/volumeUpImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/actions/volume_up/volumeUpImage@2x.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +195,7 @@
       <workItem from="1603636363913" duration="904000" />
       <workItem from="1603700951577" duration="13296000" />
       <workItem from="1603729279906" duration="2439000" />
-      <workItem from="1603787578606" duration="7350000" />
+      <workItem from="1603787578606" duration="10806000" />
     </task>
     <servers />
   </component>
