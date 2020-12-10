@@ -25,6 +25,7 @@
     <list default="true" id="fc8e6496-9d06-442e-8979-6e1decf735bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StreamDeckYTMDA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YTMDesktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YTMDesktop.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
       <list>
         <option value="$PROJECT_DIR$/prout.csproj" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/YTMDesktop.csproj" />
       </list>
     </option>
   </component>
@@ -54,18 +56,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected=".NET Project.prout">
+    <configuration name="Mac Self-Contained" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="osx-x64" self_contained="true" target_folder="$PROJECT_DIR$/publish/mac/self-contained" target_framework="netcoreapp2.2" uuid_high="2269365034763175333" uuid_low="-4821074488492941518" />
+      <method v="2">
+        <option name="Build" default="false" projectName="YTMDesktop" projectPath="C:\Users\503112802\Documents\dev\StreamDeckYTMDA\YTMDesktop.csproj" />
+      </method>
+    </configuration>
     <configuration name="Win 10 Framework-Dependent" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="win-x64" target_folder="$PROJECT_DIR$/publish/win/framework-dependent" target_framework="netcoreapp2.2" uuid_high="2269365034763175333" uuid_low="-4821074488492941518" />
       <method v="2" />
     </configuration>
     <configuration name="Win 10 Self-Contained" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
       <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/publish/win/self-contained" target_framework="netcoreapp2.2" uuid_high="2269365034763175333" uuid_low="-4821074488492941518" />
-      <method v="2" />
+      <method v="2">
+        <option name="Build" default="false" projectName="YTMDesktop" projectPath="C:\Users\503112802\Documents\dev\StreamDeckYTMDA\YTMDesktop.csproj" />
+      </method>
     </configuration>
     <configuration name="prout" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/win-x64/YTMDesktop.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/YTMDesktop.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/win-x64" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug/netcoreapp3.1" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -75,7 +85,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -83,6 +93,7 @@
     <list>
       <item itemvalue=".NET Project.prout" />
       <item itemvalue="Publish to folder.Win 10 Framework-Dependent" />
+      <item itemvalue="Publish to folder.Mac Self-Contained" />
       <item itemvalue="Publish to folder.Win 10 Self-Contained" />
     </list>
     <recent_temporary>
@@ -100,7 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603816304231</updated>
       <workItem from="1603816312431" duration="4000" />
-      <workItem from="1603816391926" duration="1362000" />
+      <workItem from="1603816391926" duration="1390000" />
+      <workItem from="1607608953407" duration="5448000" />
     </task>
     <servers />
   </component>
@@ -117,15 +129,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603817752369">
+    <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607616720655">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603817752369" />
+    <state x="734" y="355" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607616720655" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1607615033525">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607615033525" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1607615033525">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607615033525" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1607615033524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607615033524" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1607615033525">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1607615033525" />
     <state x="1175" y="436" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1603817617062">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
