@@ -34,6 +34,13 @@ Well, remember that you're using a StreamDeck, and its main purpose is to automa
 to see any value in `show-lyrics-hidden` from the StreamDeck. But if you've compelling arguments for some
 that are a "must have" to you, please don't hesitate to create an issue, we'll debate over it. 
 
+## Known Issues
+
+### Password Resetting
+
+Setting a password on the YTMD Server API prevents the integration to work.
+I've yet to figure how to handle the global parameters mechanism on the stream-deck, but it's likely to be an issue with the StreamDeck Lib. Didn't got much time to go into the details, will certainly do if this get a bit of traction.
+
 ## Credits
 Bootstrapping code by [csharpfritz](https://github.com/csharpfritz) from project [StreamDeckToolkit](https://github.com/FritzAndFriends/StreamDeckToolkit)  
 [YTMDesktop](https://github.com/ytmdesktop/ytmdesktop) project.
