@@ -7,13 +7,13 @@ using YTMDesktop.YtmdaRest.Model;
 
 namespace YTMDesktop.actions
 {
-    public abstract class BaseYtmdaAction: BaseStreamDeckActionWithSettingsModel<Settings>
+    public abstract class YtmdaActionBase: BaseStreamDeckActionWithSettingsModel<Settings>
     {
-        private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(BaseYtmdaAction));
+        private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(YtmdaActionBase));
 
         protected string LastContext { get; set; }
 
-        protected BaseYtmdaAction()
+        protected YtmdaActionBase()
         {
             Program.RegisterObserver(OnPlayerUpdate);
         }
@@ -83,18 +83,6 @@ namespace YTMDesktop.actions
         {
             LastContext = args.context;
             await base.OnDeviceDidDisconnect(args);
-        }
-
-        public override async Task OnApplicationDidLaunch(StreamDeckEventPayload args)
-        {
-            LastContext = args.context;
-            await base.OnApplicationDidLaunch(args);
-        }
-
-        public override async Task OnApplicationDidTerminate(StreamDeckEventPayload args)
-        {
-            LastContext = args.context;
-            await base.OnApplicationDidTerminate(args);
         }
 
         public override async Task OnPropertyInspectorDidDisappear(StreamDeckEventPayload args)

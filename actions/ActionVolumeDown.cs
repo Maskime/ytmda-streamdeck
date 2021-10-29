@@ -10,7 +10,7 @@ using YTMDesktop.YtmdaRest.Model;
 namespace YTMDesktop.actions
 {
     [ActionUuid(Uuid = "com.maxoumask.ytmda.action.volume.down")]
-    public class ActionVolumeDown : BaseYtmdaAction
+    public class ActionVolumeDown : YtmdaActionBase
     {
         private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(ActionVolumeDown));
         private int _lastVolume;

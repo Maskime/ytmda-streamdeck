@@ -8,12 +8,16 @@ using YTMDesktop.YtmdaRest.Model;
 namespace YTMDesktop.actions
 {
     [ActionUuid(Uuid = "com.maxoumask.ytmda.action.play")]
-    public class ActionPlayPause : BaseYtmdaAction
+    public class ActionPlayPause : YtmdaActionBase
     {
         private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(ActionPlayPause));
 
-        private const int PlayState = 0;
-        private const int PauseState = 1;
+        private enum ButtonState
+        {
+            Play = 0,
+            Pause = 1,
+            LostConnection = 2
+        }
 
         public override async Task OnKeyUp(StreamDeckEventPayload args)
         {
@@ -24,12 +28,18 @@ namespace YTMDesktop.actions
 
         public override async Task OnPlayerUpdate(Query query)
         {
-            Logger.LogTrace("Received player update");
-            var state = query.Player.IsPaused ? PlayState : PauseState;
+            ButtonState state;
+            if (query == null)
+            {
+                state = ButtonState.LostConnection;
+            }
+            else
+            {
+                Logger.LogTrace("Received player update");
+                state = query.Player.IsPaused ? ButtonState.Play : ButtonState.Pause;
+            }
 
-            await Manager.SetStateAsync(LastContext, state);
+            await Manager.SetStateAsync(LastContext, (int)state);
         }
-        
-        
     }
 }

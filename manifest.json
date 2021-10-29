@@ -13,6 +13,11 @@
           "Image": "images/actions/play_pause/pauseImage",
           "TitleAlignment": "middle",
           "FontSize": "16"
+        },
+        {
+          "Image": "images/actions/play_pause/lostConnectionImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
         }
       ],
       "SupportedInMultiActions": false,

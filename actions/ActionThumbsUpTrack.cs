@@ -8,7 +8,7 @@ using YTMDesktop.YtmdaRest.Model;
 namespace YTMDesktop.actions
 {
     [ActionUuid(Uuid = "com.maxoumask.ytmda.action.thumbs.up")]
-    public class ActionThumbsUpTrack : BaseYtmdaAction
+    public class ActionThumbsUpTrack : YtmdaActionBase
     {
         private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(ActionThumbsUpTrack));
 

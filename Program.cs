@@ -43,10 +43,6 @@ namespace YTMDesktop
         private static void UpdateObservers(object sender, ElapsedEventArgs e)
         {
             var query = YtmdaRestClient.Instance.Query();
-            if (query == null)
-            {
-                return;
-            }
             foreach (var observer in Observers)
             {
                 observer(query);

@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
+using YTMDesktop.errors;
 using YTMDesktop.settings;
 using YTMDesktop.YtmdaRest.Model;
 using YTMDesktop.YtmdaRest.Model.Commands;
@@ -26,12 +27,7 @@ namespace YTMDesktop.YtmdaRest
         public Query Query()
         {
             var settings = YtmdaSettings.Instance.GetSettings();
-            if (GetRequest(settings, "query", out Query result))
-            {
-                return result;
-            }
-
-            return null;
+            return GetRequest(settings, "query", out Query result) ? result : null;
         }
 
         private bool GetRequest<T>(Settings config, string resourceName, out T result)
@@ -60,18 +56,23 @@ namespace YTMDesktop.YtmdaRest
         public Player PlayerStatus()
         {
             var settings = YtmdaSettings.Instance.GetSettings();
-            if (GetRequest(settings, "query/player", out Player result))
+            if (!GetRequest(settings, "query/player", out Player result))
             {
-                _logger.LogDebug($"Received [{result}]");
-                return result;
+                return null;
             }
 
-            return null;
+            _logger.LogDebug($"Received [{result}]");
+            return result;
+
         }
 
         public bool TogglePlay()
         {
             var status = PlayerStatus();
+            if (status == null)
+            {
+                throw new YtmdaRestClientException("PlayerStatus was null");
+            }
             if (status.IsPaused)
             {
                 _logger.LogDebug("Player is paused, sending the play-track command");

@@ -7,7 +7,7 @@ using YTMDesktop.YtmdaRest;
 namespace YTMDesktop.actions
 {
     [ActionUuid(Uuid = "com.maxoumask.ytmda.action.previous")]
-    public class ActionPreviousTrack : BaseYtmdaAction
+    public class ActionPreviousTrack : YtmdaActionBase
     {
         private new static readonly ILogger Logger = Program.LoggerFactory.CreateLogger(nameof(ActionNextTrack));
 
